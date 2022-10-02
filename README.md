@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# GitHub Profile Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* This project is used to list GitHub repositories by passing the required GitHub username
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+## Deployed URL
+https://github-profile-finder-aditya3356.netlify.app?user=aditya3356  
+
+> Replace the value of query parameter `user` with the GitHub username whose profile you want to search
+
+## Steps to run the app locally
+1. Clone this repository
+2. Generate a GitHub Personal Access Token which can `Access public repositories` and `Read ALL user profile data`
+3. Copy the generated token
+4. Open the `.env` file in the project directory and replace `YOUR_PERSONAL_ACCESS_TOKEN` with the token that you just copied
+5. Open the terminal and `cd` into the project directory
+6. Run `npm install` in the terminal to install the dependencies
+7. Run `npm start` in the terminal to start the development server on port `3000`
+8. After the development server has started successfully, copy this URL `http://localhost:3000/?user=ANY_GITHUB_USERNAME` to a new browser tab and replace `ANY_GITHUB_USERNAME` with the GitHub username whose profile you want to search
 
 ## Available Scripts
 
